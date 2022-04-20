@@ -13,7 +13,7 @@
     justify-content: flex-end;
 }
 .home-main-section .disk-image{
-    background-image: url(img/DISK.png);
+    background-image: url(https://pranav-0.github.io/DISKSCHEDULER/img/DISK.png);
     flex-grow: 1;
     max-height: 100vh;
     min-width: 100vh;
