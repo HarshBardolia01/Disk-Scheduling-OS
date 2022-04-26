@@ -72,7 +72,7 @@ function look(){
     {
         seek=seek+Math.abs(seek_sequence[i]-seek_sequence[i-1]);
     }
-    document.querySelector('.order').innerHTML ="Order of execution = " +dummy;
+    document.querySelector('.order').innerHTML ="Order of execution = " +seek_sequence;
 
     document.querySelector('.time').innerHTML ="Total Seek Time = "+seek;
 
