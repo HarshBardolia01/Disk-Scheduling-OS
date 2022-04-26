@@ -44,7 +44,7 @@ function sstf(){
     {
         seek=seek+Math.abs(ans[i]-ans[i-1]);
     }
-    document.querySelector('.order').innerHTML ="Order of execution = " +dummy;
+    document.querySelector('.order').innerHTML ="Order of execution = " +ans;
 
     document.querySelector('.time').innerHTML ="Total Seek Time = "+seek;
 
